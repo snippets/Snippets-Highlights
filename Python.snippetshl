@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>python</string>
+	<key>Name</key>
+	<string>Python</string>
+	<key>Extension</key>
+	<string>py</string>
+	<key>Multiline</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;&quot;&quot;</string>
+				<key>End String</key>
+				<string>&quot;&quot;&quot;</string>
+			</dict>
+		</array>
+		<key>Strings</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&apos;</string>
+				<key>End String</key>
+				<string>&apos;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;</string>
+				<key>End String</key>
+				<string>&quot;</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Line</key>
+	<dict>
+		<key>Directives</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>#!</string>
+			</dict>
+		</array>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>#</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Custom Identifiers</key>
+		<array>
+			<string>True</string>
+			<string>False</string>
+		</array>
+		<key>Keywords</key>
+		<array>
+			<string>import</string>
+			<string>set</string>
+			<string>class</string>
+			<string>isinstance</string>
+			<string>else</string>
+			<string>int</string>
+			<string>from</string>
+			<string>def</string>
+			<string>as</string>
+			<string>for</string>
+			<string>if</string>
+			<string>in</string>
+			<string>list</string>
+			<string>map</string>
+			<string>assert</string>
+			<string>while</string>
+			<string>tuple</string>
+			<string>range</string>
+			<string>return</string>
+			<string>zip</string>
+			<string>xrange</string>
+			<string>float</string>
+			<string>abs</string>
+			<string>print</string>
+			<string>bool</string>
+			<string>len</string>
+			<string>try</string>
+			<string>except</string>
+			<string>str</string>
+		</array>
+	</dict>
+</dict>
+</plist>

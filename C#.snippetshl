@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>cs</string>
+	<key>Name</key>
+	<string>C#</string>
+	<key>Extension</key>
+	<string>cs</string>
+	<key>Multiline</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>/*</string>
+				<key>End String</key>
+				<string>*/</string>
+			</dict>
+		</array>
+		<key>Strings</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;</string>
+				<key>End String</key>
+				<string>&quot;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>&apos;</string>
+				<key>End String</key>
+				<string>&apos;</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Line</key>
+	<dict>
+		<key>Directives</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>#</string>
+			</dict>
+		</array>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>//</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Keywords</key>
+		<array>
+			<string>abstract</string>
+			<string>as</string>
+			<string>base</string>
+			<string>bool</string>
+			<string>break</string>
+			<string>by</string>
+			<string>byte</string>
+			<string>case</string>
+			<string>catch</string>
+			<string>char</string>
+			<string>checked</string>
+			<string>class</string>
+			<string>const</string>
+			<string>continue</string>
+			<string>decimal</string>
+			<string>default</string>
+			<string>delegate</string>
+			<string>do</string>
+			<string>double</string>
+			<string>descending</string>
+			<string>explicit</string>
+			<string>extern</string>
+			<string>event</string>
+			<string>else</string>
+			<string>enum</string>
+			<string>finally</string>
+			<string>fixed</string>
+			<string>float</string>
+			<string>for</string>
+			<string>foreach</string>
+			<string>from</string>
+			<string>goto</string>
+			<string>group</string>
+			<string>if</string>
+			<string>implicit</string>
+			<string>in</string>
+			<string>int</string>
+			<string>interface</string>
+			<string>internal</string>
+			<string>into</string>
+			<string>is</string>
+			<string>lock</string>
+			<string>long</string>
+			<string>new</string>
+			<string>namespace</string>
+			<string>object</string>
+			<string>operator</string>
+			<string>out</string>
+			<string>override</string>
+			<string>orderby</string>
+			<string>params</string>
+			<string>private</string>
+			<string>protected</string>
+			<string>public</string>
+			<string>readonly</string>
+			<string>ref</string>
+			<string>return</string>
+			<string>switch</string>
+			<string>struct</string>
+			<string>sbyte</string>
+			<string>sealed</string>
+			<string>short</string>
+			<string>sizeof</string>
+			<string>stackalloc</string>
+			<string>static</string>
+			<string>string</string>
+			<string>select</string>
+			<string>this</string>
+			<string>throw</string>
+			<string>try</string>
+			<string>typeof</string>
+			<string>unit</string>
+			<string>ulong</string>
+			<string>unchecked</string>
+			<string>unsafe</string>
+			<string>ushort</string>
+			<string>using</string>
+			<string>var</string>
+			<string>virtual</string>
+			<string>volatile</string>
+			<string>void</string>
+			<string>while</string>
+			<string>wehere</string>
+			<string>yield</string>
+		</array>
+		<key>Custom Identifiers</key>
+		<array>
+			<string>true</string>
+			<string>null</string>
+			<string>false</string>
+		</array>
+	</dict>
+</dict>
+</plist>

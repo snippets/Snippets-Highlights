@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>lisp</string>
+	<key>Name</key>
+	<string>Common Lisp</string>
+	<key>Extension</key>
+	<string>lisp</string>
+	<key>Case-insensitive</key>
+	<true/>
+	<key>Multiline</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>#|</string>
+				<key>End String</key>
+				<string>|#</string>
+			</dict>
+		</array>
+		<key>Strings</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;</string>
+				<key>End String</key>
+				<string>&quot;</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Line</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>;;</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Custom Identifiers</key>
+		<array>
+			<string>(</string>
+			<string>)</string>
+			<string>defun</string>
+			<string>defmacro</string>
+			<string>list</string>
+			<string>interactive</string>
+			<string>defvar</string>
+			<string>insert</string>
+			<string>read-string</string>
+			<string>string-replace</string>
+			<string>defparameter</string>
+			<string>let</string>
+			<string>let*</string>
+			<string>dolist</string>
+			<string>cond</string>
+			<string>if</string>
+			<string>break</string>
+			<string>macrolet</string>
+			<string>flet</string>
+			<string>flet*</string>
+			<string>defmethod</string>
+			<string>defclass</string>
+			<string>case</string>
+			<string>declare</string>
+			<string>when</string>
+			<string>unless</string>
+			<string>progn</string>
+		</array>
+		<key>Keywords</key>
+		<array>
+			<string>error</string>
+			<string>nil</string>
+			<string>t</string>
+			<string>car</string>
+			<string>cdr</string>
+			<string>lambda</string>
+		</array>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>erlang</string>
+	<key>Name</key>
+	<string>Erlang</string>
+	<key>Extension</key>
+	<string>erl</string>
+	<key>Multiline</key>
+	<dict>
+		<key>Strings</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;</string>
+				<key>End String</key>
+				<string>&quot;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>&apos;</string>
+				<key>End String</key>
+				<string>&apos;</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Line</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>%</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Custom Identifiers</key>
+		<array>
+			<string>div</string>
+			<string>rem</string>
+			<string>or</string>
+			<string>xor</string>
+			<string>bor</string>
+			<string>bxor</string>
+			<string>bsl</string>
+			<string>bsr</string>
+			<string>and</string>
+			<string>band</string>
+			<string>not</string>
+			<string>bnot</string>
+			<string>nil</string>
+			<string>true</string>
+			<string>flase</string>
+			<string>self</string>
+		</array>
+		<key>Keywords</key>
+		<array>
+			<string>after</string>
+			<string>cond</string>
+			<string>let</string>
+			<string>when</string>
+			<string>begin</string>
+			<string>end</string>
+			<string>of</string>
+			<string>case</string>
+			<string>fun</string>
+			<string>query</string>
+			<string>catch</string>
+			<string>if</string>
+			<string>receive</string>
+			<string>all_true</string>
+			<string>some_true</string>
+		</array>
+	</dict>
+</dict>
+</plist>

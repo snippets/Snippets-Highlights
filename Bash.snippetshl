@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>bash</string>
+	<key>Name</key>
+	<string>Bash</string>
+	<key>Extension</key>
+	<string>sh</string>
+	<key>Line</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>#</string>
+			</dict>
+		</array>
+		<key>Directives</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>#!</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Keywords</key>
+		<array>
+			<string>for</string>
+			<string>do</string>
+			<string>fi</string>
+			<string>grep</string>
+			<string>echo</string>
+			<string>done</string>
+			<string>esac</string>
+			<string>declare</string>
+			<string>exit</string>
+			<string>local</string>
+			<string>done</string>
+			<string>readonly</string>
+			<string>unset</string>
+			<string>set</string>
+			<string>read</string>
+			<string>if</string>
+			<string>then</string>
+			<string>else</string>
+			<string>case</string>
+			<string>eval</string>
+			<string>expr</string>
+			<string>for</string>
+			<string>test</string>
+			<string>until</string>
+			<string>while</string>
+		</array>
+	</dict>
+	<key>Multiline</key>
+	<dict>
+		<key>Strings</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&apos;</string>
+				<key>End String</key>
+				<string>&apos;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;</string>
+				<key>End String</key>
+				<string>&quot;</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

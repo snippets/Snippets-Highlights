@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>apple-script</string>
+	<key>Name</key>
+	<string>AppleScript</string>
+	<key>Extension</key>
+	<string>applescript</string>
+	<key>Multiline</key>
+	<dict>
+		<key>Strings</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;</string>
+				<key>End String</key>
+				<string>&quot;</string>
+			</dict>
+		</array>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>(*</string>
+				<key>End String</key>
+				<string>*)</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Line</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>#</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>--</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Keywords</key>
+		<array>
+			<string>about
+above
+after
+against
+and
+apart from
+around
+as
+aside from
+at
+back
+before
+beginning
+behind
+below
+beneath
+beside
+between
+but
+by
+considering
+contain, contains
+continue
+copy
+div
+does
+eighth
+else
+end
+equal, equals
+error
+every
+exit
+false
+fifth
+first
+for
+fourth
+from
+front
+get
+given
+global
+if
+ignoring
+in
+instead of
+into
+is
+it
+its
+last
+local
+me
+middle
+mod
+my
+ninth
+not
+of
+on
+onto
+or
+out of
+over
+prop, property
+put
+ref/reference
+repeat
+return
+script
+second
+set
+seventh
+since
+sixth
+some
+tell
+tenth
+that
+the
+then
+third
+through, thru
+timeout
+times
+to
+transaction
+true
+try
+until
+where
+while
+whose
+with
+without</string>
+			<string>above</string>
+			<string>after</string>
+			<string>against</string>
+			<string>and</string>
+			<string>apart</string>
+			<string>at</string>
+			<string>around</string>
+			<string>as</string>
+			<string>aside</string>
+			<string>from</string>
+			<string>back</string>
+			<string>before</string>
+			<string>beginning</string>
+			<string>behind</string>
+			<string>below</string>
+			<string>beneath</string>
+			<string>beside</string>
+			<string>between</string>
+			<string>but</string>
+			<string>by</string>
+			<string>considering</string>
+			<string>contain</string>
+			<string>contains</string>
+			<string>continue</string>
+			<string>copy</string>
+			<string>div</string>
+			<string>does</string>
+			<string>else</string>
+			<string>end</string>
+			<string>equal</string>
+			<string>equals</string>
+			<string>error</string>
+			<string>every</string>
+			<string>exit</string>
+			<string>for</string>
+			<string>from</string>
+			<string>front</string>
+			<string>get</string>
+			<string>given</string>
+			<string>global</string>
+			<string>if</string>
+			<string>ignoring</string>
+			<string>in</string>
+			<string>instead</string>
+			<string>of</string>
+			<string>into</string>
+			<string>is</string>
+			<string>it</string>
+			<string>its</string>
+			<string>last</string>
+			<string>local</string>
+			<string>me</string>
+			<string>middle</string>
+			<string>mod</string>
+			<string>my</string>
+			<string>not</string>
+			<string>of</string>
+			<string>on</string>
+			<string>onto</string>
+			<string>or</string>
+			<string>out</string>
+			<string>over</string>
+			<string>prop</string>
+			<string>property</string>
+			<string>put</string>
+			<string>ref</string>
+			<string>reference</string>
+			<string>repeat</string>
+			<string>return</string>
+			<string>script</string>
+			<string>set</string>
+			<string>since</string>
+			<string>some</string>
+			<string>tell</string>
+			<string>that</string>
+			<string>the</string>
+			<string>then</string>
+			<string>through</string>
+			<string>thru</string>
+			<string>timeout</string>
+			<string>times</string>
+			<string>to</string>
+			<string>transaction</string>
+			<string>try</string>
+			<string>until</string>
+			<string>where</string>
+			<string>while</string>
+			<string>whose</string>
+			<string>with</string>
+			<string>without</string>
+		</array>
+		<key>Custom Identifiers</key>
+		<array>
+			<string>false</string>
+			<string>true</string>
+			<string>first</string>
+			<string>second</string>
+			<string>third</string>
+			<string>fourth</string>
+			<string>fifth</string>
+			<string>sixth</string>
+			<string>seventh</string>
+			<string>eighth</string>
+			<string>ninth</string>
+			<string>tenth</string>
+		</array>
+	</dict>
+</dict>
+</plist>

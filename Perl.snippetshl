@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>perl</string>
+	<key>Name</key>
+	<string>Perl</string>
+	<key>Extension</key>
+	<string>pl</string>
+	<key>Multiline</key>
+	<dict>
+		<key>Strings</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;</string>
+				<key>End String</key>
+				<string>&quot;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>&apos;</string>
+				<key>End String</key>
+				<string>&apos;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>`</string>
+				<key>End String</key>
+				<string>`</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Line</key>
+	<dict>
+		<key>Directives</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>#!</string>
+			</dict>
+		</array>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>#</string>
+			</dict>
+		</array>
+		<key>Regular Expressions</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>/</string>
+				<key>End String</key>
+				<string>/</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Keywords</key>
+		<array>
+			<string>sub</string>
+			<string>eval</string>
+			<string>use</string>
+			<string>do</string>
+			<string>return</string>
+			<string>strict</string>
+			<string>my</string>
+			<string>our</string>
+			<string>if</string>
+			<string>unless</string>
+			<string>while</string>
+			<string>until</string>
+			<string>foreach</string>
+			<string>last</string>
+			<string>next</string>
+			<string>continue</string>
+			<string>open</string>
+			<string>die</string>
+			<string>exit</string>
+			<string>chop</string>
+			<string>chomp</string>
+			<string>redo</string>
+			<string>eof</string>
+			<string>else</string>
+			<string>elsif</string>
+			<string>new</string>
+			<string>print</string>
+			<string>goto</string>
+			<string>warn</string>
+			<string>package</string>
+			<string>close</string>
+		</array>
+		<key>Custom Identifiers</key>
+		<array>
+			<string>map</string>
+			<string>bless</string>
+			<string>push</string>
+			<string>@_</string>
+			<string>delete</string>
+			<string>split</string>
+			<string>pop</string>
+			<string>getopts</string>
+			<string>mkdir</string>
+			<string>compare</string>
+		</array>
+	</dict>
+</dict>
+</plist>

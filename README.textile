@@ -1,0 +1,11 @@
+h1. Snippets Highlights
+
+This repository contains highlight configuration files for Snippets. 
+Most of them are bundled with the application. You can install any 
+additional syntax highlight by download and double-clicking on 
+*.snippetshl file.
+
+h2. Support
+
+* "Snippets home page":http://www.snippetsapp.com/
+* "Snippets support":http://www.snippetsapp.com/support/

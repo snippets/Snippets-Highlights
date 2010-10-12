@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>cpp</string>
+	<key>Name</key>
+	<string>C++</string>
+	<key>Extension</key>
+	<string>cpp</string>
+	<key>Multiline</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>/*</string>
+				<key>End String</key>
+				<string>*/</string>
+			</dict>
+		</array>
+		<key>Strings</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;</string>
+				<key>End String</key>
+				<string>&quot;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>&apos;</string>
+				<key>End String</key>
+				<string>&apos;</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Line</key>
+	<dict>
+		<key>Directives</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>#</string>
+			</dict>
+		</array>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>//</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Keywords</key>
+		<array>
+			<string>auto</string>
+			<string>break</string>
+			<string>case</string>
+			<string>char</string>
+			<string>const</string>
+			<string>continue</string>
+			<string>default</string>
+			<string>do</string>
+			<string>double</string>
+			<string>else</string>
+			<string>enum</string>
+			<string>extern</string>
+			<string>float</string>
+			<string>for</string>
+			<string>goto</string>
+			<string>if</string>
+			<string>int</string>
+			<string>long</string>
+			<string>register</string>
+			<string>return</string>
+			<string>short</string>
+			<string>signed</string>
+			<string>sizeof</string>
+			<string>static</string>
+			<string>struct</string>
+			<string>switch</string>
+			<string>typedef</string>
+			<string>union</string>
+			<string>unsigned</string>
+			<string>void</string>
+			<string>volatile</string>
+			<string>while</string>
+			<string>bool</string>
+			<string>catch</string>
+			<string>class</string>
+			<string>delete</string>
+			<string>friend</string>
+			<string>inline</string>
+			<string>new</string>
+			<string>namespace</string>
+			<string>operator</string>
+			<string>private</string>
+			<string>protected</string>
+			<string>public</string>
+			<string>template</string>
+			<string>this</string>
+			<string>throw_</string>
+			<string>try_</string>
+			<string>template</string>
+		</array>
+		<key>Custom Identifiers</key>
+		<array>
+			<string>true</string>
+			<string>NULL</string>
+			<string>false</string>
+		</array>
+	</dict>
+</dict>
+</plist>

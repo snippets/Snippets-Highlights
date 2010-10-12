@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>lua</string>
+	<key>Name</key>
+	<string>Lua</string>
+	<key>Extension</key>
+	<string>lua</string>
+	<key>Multiline</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>--[[</string>
+				<key>End String</key>
+				<string>]]</string>
+			</dict>
+		</array>
+		<key>Strings</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;</string>
+				<key>End String</key>
+				<string>&quot;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>&apos;</string>
+				<key>End String</key>
+				<string>&apos;</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Line</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>--</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Keywords</key>
+		<array>
+			<string>end</string>
+			<string>collectgarbage</string>
+			<string>elseif</string>
+			<string>do</string>
+			<string>local</string>
+			<string>dostring</string>
+			<string>function</string>
+			<string>return</string>
+			<string>break</string>
+			<string>return</string>
+			<string>pcall</string>
+			<string>error</string>
+			<string>if</string>
+			<string>then</string>
+			<string>else</string>
+			<string>repeat</string>
+			<string>until</string>
+			<string>for</string>
+			<string>while</string>
+			<string>nothing</string>
+			<string>optionally</string>
+			<string>end-of-line</string>
+			<string>loop</string>
+			<string>declare</string>
+			<string>import</string>
+			<string>foreach</string>
+			<string>string</string>
+			<string>foreachi</string>
+			<string>table</string>
+			<string>sort</string>
+			<string>getn</string>
+		</array>
+		<key>Custom Identifiers</key>
+		<array>
+			<string>strchar</string>
+			<string>gsub</string>
+			<string>strbyte</string>
+			<string>insert</string>
+			<string>tostring</string>
+			<string>strrep</string>
+			<string>sub</string>
+			<string>find</string>
+			<string>print</string>
+			<string>format</string>
+			<string>upper</string>
+			<string>lower</string>
+			<string>false</string>
+			<string>nil</string>
+			<string>true</string>
+			<string>not</string>
+			<string>or</string>
+			<string>not</string>
+			<string>and</string>
+			<string>in</string>
+		</array>
+	</dict>
+</dict>
+</plist>

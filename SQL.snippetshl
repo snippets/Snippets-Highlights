@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>sql</string>
+	<key>Name</key>
+	<string>SQL</string>
+	<key>Extension</key>
+	<string>sql</string>
+	<key>Case-insensitive</key>
+	<true/>
+	<key>Line</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>-- </string>
+			</dict>
+		</array>
+	</dict>
+	<key>Multiline</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>/*</string>
+				<key>End String</key>
+				<string>*/</string>
+			</dict>
+		</array>
+		<key>Strings</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&apos;</string>
+				<key>End String</key>
+				<string>&apos;</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Keywords</key>
+		<array>
+			<string>SELECT</string>
+			<string>USE</string>
+			<string>SUM</string>
+			<string>LENGTH</string>
+			<string>REPLACE</string>
+			<string>AS</string>
+			<string>FROM</string>
+			<string>GROUP BY</string>
+			<string>HAVING</string>
+			<string>TABLE</string>
+			<string>EXISTS</string>
+			<string>ADD</string>
+			<string>DISTINCT</string>
+			<string>FOREIGN</string>
+			<string>KEY</string>
+			<string>REFERENCES</string>
+			<string>ORDER BY</string>
+			<string>DESC</string>
+			<string>WHERE</string>
+			<string>DROP</string>
+			<string>INTO</string>
+			<string>ON</string>
+			<string>OFF</string>
+			<string>BEGIN</string>
+			<string>FOR USE WITH</string>
+			<string>TOP</string>
+			<string>END</string>
+			<string>UPDATE</string>
+			<string>IF</string>
+			<string>SET</string>
+			<string>RETURN</string>
+			<string>AND</string>
+			<string>GO</string>
+			<string>NULL</string>
+			<string>IN</string>
+			<string>IS</string>
+			<string>ALTER</string>
+			<string>PROCEDURE</string>
+			<string>CREATE</string>
+			<string>FUNCTION</string>
+			<string>WITH</string>
+			<string>DECLARE</string>
+			<string>GRANT</string>
+			<string>IDENTIFIED BY</string>
+			<string>REVOKE</string>
+		</array>
+	</dict>
+</dict>
+</plist>

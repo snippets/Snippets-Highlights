@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>javascript</string>
+	<key>Name</key>
+	<string>JavaScript</string>
+	<key>Extension</key>
+	<string>js</string>
+	<key>Multiline</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>/*</string>
+				<key>End String</key>
+				<string>*/</string>
+			</dict>
+		</array>
+		<key>Strings</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;</string>
+				<key>End String</key>
+				<string>&quot;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>&apos;</string>
+				<key>End String</key>
+				<string>&apos;</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Line</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>//</string>
+			</dict>
+		</array>
+		<key>Regular Expressions</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>/</string>
+				<key>End String</key>
+				<string>/</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Keywords</key>
+		<array>
+			<string>function</string>
+			<string>for</string>
+			<string>if</string>
+			<string>typeof</string>
+			<string>true</string>
+			<string>false</string>
+			<string>this</string>
+			<string>var</string>
+			<string>else</string>
+			<string>return</string>
+			<string>document</string>
+		</array>
+		<key>Custom Identifiers</key>
+		<array>
+			<string>undefined</string>
+			<string>null</string>
+		</array>
+	</dict>
+</dict>
+</plist>

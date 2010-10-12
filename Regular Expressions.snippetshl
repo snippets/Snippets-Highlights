@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>regexp</string>
+	<key>Name</key>
+	<string>Regular Expressions</string>
+	<key>Extension</key>
+	<string>regexp</string>
+	<key>Identifier</key>
+	<dict>
+		<key>Keywords</key>
+		<array>
+			<string>\d</string>
+			<string>\w</string>
+			<string>\s</string>
+			<string>\b</string>
+		</array>
+		<key>Custom Identifiers</key>
+		<array>
+			<string>?</string>
+			<string>*</string>
+			<string>.</string>
+			<string>|</string>
+			<string>[</string>
+			<string>]</string>
+			<string>{</string>
+			<string>}</string>
+			<string>(</string>
+			<string>)</string>
+			<string>-</string>
+			<string>+</string>
+			<string>^</string>
+			<string>,</string>
+		</array>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>cold-fusion</string>
+	<key>Name</key>
+	<string>ColdFusion</string>
+	<key>Extension</key>
+	<string>cfm</string>
+	<key>Case-insensitive</key>
+	<true/>
+	<key>Multiline</key>
+	<dict>
+		<key>Strings</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;</string>
+				<key>End String</key>
+				<string>&quot;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>#</string>
+				<key>End String</key>
+				<string>#</string>
+			</dict>
+		</array>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&lt;!--</string>
+				<key>End String</key>
+				<string>--&gt;</string>
+			</dict>
+		</array>
+		<key>Tags</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&lt;</string>
+				<key>End String</key>
+				<string>&gt;</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Line</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>//</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Keywords</key>
+		<array>
+			<string>if</string>
+			<string>else</string>
+			<string>int</string>
+			<string>return</string>
+			<string>len</string>
+			<string>private</string>
+			<string>trim</string>
+			<string>String</string>
+			<string>for</string>
+			<string>cast</string>
+			<string>CreateObject</string>
+		</array>
+		<key>Custom Identifiers</key>
+		<array>
+			<string>INSERT</string>
+			<string>INTO</string>
+			<string>VALUES</string>
+			<string>NOT</string>
+			<string>VARIABLES</string>
+			<string>AND</string>
+			<string>ARGUMENTS</string>
+			<string>INNER JOIN</string>
+			<string>SELECT</string>
+			<string>FROM</string>
+			<string>WHERE</string>
+			<string>ORDER BY</string>
+		</array>
+	</dict>
+</dict>
+</plist>

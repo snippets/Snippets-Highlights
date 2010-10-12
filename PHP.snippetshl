@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>php</string>
+	<key>Name</key>
+	<string>PHP</string>
+	<key>Extension</key>
+	<string>php</string>
+	<key>Case-insensitive</key>
+	<true/>
+	<key>Multiline</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>/*</string>
+				<key>End String</key>
+				<string>*/</string>
+			</dict>
+		</array>
+		<key>Strings</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;</string>
+				<key>End String</key>
+				<string>&quot;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>&apos;</string>
+				<key>End String</key>
+				<string>&apos;</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Line</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>//</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Keywords</key>
+		<array>
+			<string>auto</string>
+			<string>break</string>
+			<string>case</string>
+			<string>char</string>
+			<string>const</string>
+			<string>continue</string>
+			<string>default</string>
+			<string>do</string>
+			<string>double</string>
+			<string>else</string>
+			<string>enum</string>
+			<string>extern</string>
+			<string>float</string>
+			<string>for</string>
+			<string>goto</string>
+			<string>if</string>
+			<string>int</string>
+			<string>long</string>
+			<string>register</string>
+			<string>return</string>
+			<string>short</string>
+			<string>signed</string>
+			<string>sizeof</string>
+			<string>static</string>
+			<string>struct</string>
+			<string>switch</string>
+			<string>typedef</string>
+			<string>union</string>
+			<string>unsigned</string>
+			<string>void</string>
+			<string>volatile</string>
+			<string>while</string>
+		</array>
+		<key>Custom Identifiers</key>
+		<array>
+			<string>&lt;?php</string>
+			<string>?&gt;</string>
+			<string>echo</string>
+			<string>array</string>
+			<string>date</string>
+			<string>class</string>
+			<string>include</string>
+			<string>public</string>
+			<string>function</string>
+			<string>__construct</string>
+			<string>fopen</string>
+			<string>fclose</string>
+			<string>$_GET</string>
+			<string>$_POST</string>
+			<string>$_REQUEST</string>
+		</array>
+	</dict>
+</dict>
+</plist>

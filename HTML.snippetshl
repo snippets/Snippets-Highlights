@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>html</string>
+	<key>Name</key>
+	<string>HTML</string>
+	<key>Extension</key>
+	<string>html</string>
+	<key>Case-insensitive</key>
+	<true/>
+	<key>Multiline</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&lt;!--</string>
+				<key>End String</key>
+				<string>--&gt;</string>
+			</dict>
+		</array>
+		<key>Tags</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&lt;</string>
+				<key>End String</key>
+				<string>&gt;</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Custom Identifiers</key>
+		<array>
+			<string>&amp;nbsp;</string>
+			<string>&amp;lt;</string>
+			<string>&amp;gt;</string>
+			<string>&amp;copy;</string>
+		</array>
+	</dict>
+</dict>
+</plist>

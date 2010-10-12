@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>vb</string>
+	<key>Name</key>
+	<string>VB.NET</string>
+	<key>Extension</key>
+	<string>vb</string>
+	<key>Case-insensitive</key>
+	<true/>
+	<key>Multiline</key>
+	<dict>
+		<key>Strings</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;</string>
+				<key>End String</key>
+				<string>&quot;</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Line</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&apos;</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Keywords</key>
+		<array>
+			<string>Sub</string>
+			<string>Try</string>
+			<string>Return</string>
+			<string>On</string>
+			<string>GoTo</string>
+			<string>Public</string>
+			<string>Function</string>
+			<string>Exit</string>
+			<string>Dim</string>
+			<string>As</string>
+			<string>New</string>
+			<string>ByVal</string>
+			<string>String</string>
+			<string>Finally</string>
+			<string>If</string>
+			<string>Not</string>
+			<string>End</string>
+			<string>Else</string>
+			<string>Shared</string>
+			<string>Class</string>
+			<string>Catch</string>
+			<string>Private</string>
+			<string>Handles</string>
+			<string>For</string>
+			<string>Next</string>
+			<string>To</string>
+			<string>Error</string>
+			<string>Shell</string>
+			<string>Then</string>
+		</array>
+		<key>Custom Identifiers</key>
+		<array>
+			<string>True</string>
+			<string>False</string>
+		</array>
+	</dict>
+</dict>
+</plist>

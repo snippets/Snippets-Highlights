@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>ruby</string>
+	<key>Name</key>
+	<string>Ruby</string>
+	<key>Extension</key>
+	<string>rb</string>
+	<key>Multiline</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>/*</string>
+				<key>End String</key>
+				<string>*/</string>
+			</dict>
+		</array>
+		<key>Strings</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;</string>
+				<key>End String</key>
+				<string>&quot;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>&apos;</string>
+				<key>End String</key>
+				<string>&apos;</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Line</key>
+	<dict>
+		<key>Directives</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>#!</string>
+			</dict>
+		</array>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>//</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>#</string>
+			</dict>
+		</array>
+		<key>Regular Expressions</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>/</string>
+				<key>End String</key>
+				<string>/</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Keywords</key>
+		<array>
+			<string>def</string>
+			<string>include</string>
+			<string>case</string>
+			<string>require</string>
+			<string>when</string>
+			<string>for</string>
+			<string>if</string>
+			<string>in</string>
+			<string>and</string>
+			<string>break</string>
+			<string>unless</string>
+			<string>end</string>
+			<string>then</string>
+			<string>module</string>
+			<string>class</string>
+			<string>do</string>
+			<string>return</string>
+			<string>puts</string>
+			<string>else</string>
+			<string>loop</string>
+		</array>
+	</dict>
+</dict>
+</plist>

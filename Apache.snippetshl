@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>apache-conf</string>
+	<key>Name</key>
+	<string>Apache</string>
+	<key>Extension</key>
+	<string>conf</string>
+	<key>Case-insensitive</key>
+	<true/>
+	<key>Multiline</key>
+	<dict>
+		<key>Strings</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;</string>
+				<key>End String</key>
+				<string>&quot;</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Line</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>#</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Custom Identifiers</key>
+		<array>
+			<string>Redirect</string>
+			<string>SetEnvIf</string>
+			<string>Allow</string>
+			<string>Deny</string>
+			<string>Satisfy</string>
+			<string>Order</string>
+			<string>AuthName</string>
+			<string>AuthType</string>
+			<string>AuthUserFile</string>
+			<string>Require</string>
+			<string>ErrorDocument</string>
+			<string>AddDefaultCharset</string>
+			<string>IndexOptions</string>
+			<string>DirectoryIndex</string>
+			<string>RewriteCond</string>
+			<string>RewriteEngine</string>
+			<string>RewriteRule</string>
+			<string>AddType</string>
+			<string>SetHandler</string>
+		</array>
+		<key>Keywords</key>
+		<array>
+			<string>IfModule</string>
+			<string>FilesMatch</string>
+		</array>
+	</dict>
+</dict>
+</plist>
