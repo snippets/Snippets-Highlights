@@ -2,8 +2,8 @@ h1. Snippets Highlights
 
 This repository contains highlight configuration files for Snippets. 
 Most of them are bundled with the application. You can install any 
-additional syntax highlight by download and double-clicking on 
-*.snippetshl file.
+additional syntax highlight by downloading and double-clicking a 
+.snippetshl file.
 
 h2. Support
 
