@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>fortran</string>
+  <key>Name</key>
+  <string>Fortran</string>
+  <key>Extension</key>
+  <string>f</string>
+  <key>Case-insensitive</key>
+  <true/>
+  <key>Line</key>
+  <dict>
+    <key>Comments</key>
+    <array>
+      <dict>
+        <key>Start String</key>
+        <string>!</string>
+      </dict>
+      <dict>
+        <key>Start String</key>
+        <string>c </string>
+      </dict>
+    </array>
+   </dict>
+   <key>Multiline</key>
+   <dict>
+     <key>Strings</key>
+     <array>
+       <dict>
+         <key>Start String</key>
+         <string>&quot;</string>
+         <key>End String</key>
+         <string>&quot;</string>
+       </dict>
+       <dict> 
+         <key>Start String</key>
+         <string>&apos;</string>
+         <key>End String</key>
+         <string>&apos;</string>
+       </dict>
+     </array>
+   </dict>
+   <key>Identifier</key>
+   <dict>
+     <key>Keywords</key>
+     <array>
+       <string>abstract</string>
+       <string>allocate</string>
+       <string>allocatable</string>
+       <string>assign</string>
+       <string>associate</string>
+       <string>asynchronous</string>
+       <string>backspace</string>
+       <string>bind</string>
+       <string>block</string>
+       <string>block data</string>
+       <string>blockdata</string>
+       <string>call</string>
+       <string>case</string>
+       <string>class</string>
+       <string>close</string>
+       <string>codimension</string>
+       <string>common</string>
+       <string>contains</string>
+       <string>contiguous</string>
+       <string>continue</string>
+       <string>critical</string>
+       <string>cycle</string>
+       <string>data</string>
+       <string>deallocate</string>
+       <string>deferred</string>
+       <string>dimension</string>
+       <string>do</string>
+       <string>do concurrent</string>
+       <string>elemental</string>
+       <string>else</string>
+       <string>elseif</string>
+       <string>elsewhere</string>
+       <string>end</string>
+       <string>enddo</string>
+       <string>endfile</string>
+       <string>endif</string>
+       <string>entry</string>
+       <string>enum</string>
+       <string>enumerator</string>
+       <string>equivalence</string>
+       <string>error stop</string>
+       <string>exit</string>
+       <string>extends</string>
+       <string>external</string>
+       <string>final</string>
+       <string>flush</string>
+       <string>forall</string>
+       <string>format</string>
+       <string>function</string>
+       <string>generic</string>
+       <string>goto</string>
+       <string>if</string>
+       <string>implicit</string>
+       <string>import</string>
+       <string>in out</string>
+       <string>include</string>
+       <string>inout</string>
+       <string>inquire</string>
+       <string>intent</string>
+       <string>interface</string>
+       <string>intrinsic</string>
+       <string>lock</string>
+       <string>module</string>
+       <string>namelist</string>
+       <string>non_overridable</string>
+       <string>none</string>
+       <string>nopass</string>
+       <string>nullify</string>
+       <string>only</string>
+       <string>open</string>
+       <string>operator</string>
+       <string>optional</string>
+       <string>parameter</string>
+       <string>pass</string>
+       <string>pause</string>
+       <string>pointer</string>
+       <string>print</string>
+       <string>private</string>
+       <string>procedure</string>
+       <string>program</string>
+       <string>protected</string>
+       <string>public</string>
+       <string>pure</string>
+       <string>read</string>
+       <string>recursive</string>
+       <string>result</string>
+       <string>return</string>
+       <string>rewind</string>
+       <string>rewrite</string>
+       <string>save</string>
+       <string>select</string>
+       <string>selectcase</string>
+       <string>sequence</string>
+       <string>stop</string>
+       <string>submodule</string>
+       <string>subroutine</string>  
+       <string>sync all</string>
+       <string>sync images</string>
+       <string>sync memory</string>    
+       <string>target</string>
+       <string>then</string>
+       <string>type</string>
+       <string>unlock</string>
+       <string>use</string>
+       <string>value</string>
+       <string>volatile</string>
+       <string>wait</string>       
+       <string>while</string>
+       <string>where</string>
+       <string>write</string>           
+     </array>
+     <key>Custom Identifiers</key>
+     <array>
+       <string>.true.</string>
+       <string>.false.</string>
+       <string>.not.</string>
+       <string>.and.</string>
+       <string>.or.</string>
+       <string>.eqv.</string>
+       <string>.neqv.</string>
+       <string>.eq.</string>
+       <string>.ne.</string>
+       <string>.gt.</string>
+       <string>.lt.</string>
+       <string>.le.</string>
+       <string>.ge.</string>
+       <string>character</string>
+       <string>complex</string>
+       <string>double precision</string>
+       <string>doubleprecision</string>   
+       <string>integer</string>
+       <string>kind</string>
+       <string>logical</string>
+       <string>real</string>
+    </array>
+   </dict>
+</dict>
+</plist>
