@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>Groovy</string>
+	<key>Name</key>
+	<string>Groovy</string>
+	<key>Extension</key>
+	<string>groovy</string>
+	<key>Multiline</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>/*</string>
+				<key>End String</key>
+				<string>*/</string>
+			</dict>
+		</array>
+		<key>Strings</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>/</string>
+				<key>End String</key>
+				<string>/</string>
+				</dict>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;</string>
+				<key>End String</key>
+				<string>&quot;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>&apos;</string>
+				<key>End String</key>
+				<string>&apos;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;&quot;&quot;</string>
+				<key>End String</key>
+				<string>&quot;&quot;&quot;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>&apos;&apos;&apos;</string>
+				<key>End String</key>
+				<string>&apos;&apos;&apos;</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Line</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>//</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Keywords</key>
+		<array>
+			<string>abstract</string>
+			<string>continue</string>
+			<string>for</string>
+			<string>new</string>
+			<string>switch</string>
+			<string>default</string>
+			<string>package</string>
+			<string>synchronized</string>
+			<string>boolean</string>
+			<string>do</string>
+			<string>if</string>
+			<string>private</string>
+			<string>this</string>
+			<string>break</string>
+			<string>double</string>
+			<string>implements</string>
+			<string>protected</string>
+			<string>throw</string>
+			<string>byte</string>
+			<string>else</string>
+			<string>import</string>
+			<string>public</string>
+			<string>throws</string>
+			<string>case</string>
+			<string>instanceof</string>
+			<string>return</string>
+			<string>transient</string>
+			<string>catch</string>
+			<string>extends</string>
+			<string>int</string>
+			<string>short</string>
+			<string>try</string>
+			<string>char</string>
+			<string>final</string>
+			<string>interface</string>
+			<string>static</string>
+			<string>void</string>
+			<string>class</string>
+			<string>finally</string>
+			<string>long</string>
+			<string>volatile</string>
+			<string>float</string>
+			<string>native</string>
+			<string>super</string>
+			<string>while</string>
+			<string>in</string>
+			<string>def</string>
+		</array>
+		<key>Custom Identifiers</key>
+		<array>
+			<string>true</string>
+			<string>false</string>
+			<string>null</string>
+			<string>delegate</string>
+			<string>owner</string>
+			<string>metaClass</string>
+			<string>:</string>
+			<string>[]</string>
+			<string>[:]</string>
+			<string>-></string>
+			<string>{</string>
+			<string>}</string>
+		</array>
+	</dict>
+</dict>
+</plist>
