@@ -37,7 +37,7 @@
 		<array>
 			<dict>
 				<key>Start String</key>
-				<string>//</string>
+				<string>--</string>
 			</dict>
 		</array>
 	</dict>
