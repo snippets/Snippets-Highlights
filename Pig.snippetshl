@@ -67,6 +67,7 @@
 			<string>copyFromLocal</string>
 			<string>copyToLocal</string>
 			<string>COUNT</string>
+			<string>COUNT_STAR</string>
 			<string>cp</string>
 			<string>cross</string>
 			<string>%declare</string>
