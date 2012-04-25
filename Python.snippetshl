@@ -90,6 +90,22 @@
 			<string>try</string>
 			<string>except</string>
 			<string>str</string>
+			<string>and</string>
+			<string>elif</string>
+			<string>raise</string>
+			<string>exec</string>
+			<string>is</string>
+			<string>global</string>
+			<string>yield</string>
+			<string>break</string>
+			<string>finally</string>
+			<string>continue</string>
+			<string>del</string>
+			<string>pass</string>
+			<string>not</string>
+			<string>with</string>
+			<string>or</string>
+			<string>lambda</string>
 		</array>
 	</dict>
 </dict>
