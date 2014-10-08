@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>golang</string>
+	<key>Name</key>
+	<string>golang</string>
+	<key>Extension</key>
+	<string>go</string>
+	<key>Multiline</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>/*</string>
+				<key>End String</key>
+				<string>*/</string>
+			</dict>
+		</array>
+		<key>Strings</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;</string>
+				<key>End String</key>
+				<string>&quot;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>&apos;</string>
+				<key>End String</key>
+				<string>&apos;</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Line</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>//</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Keywords</key>
+		<array>
+			<string>break</string>
+			<string>default</string>
+			<string>func</string>
+			<string>interface</string>
+			<string>select</string>
+			<string>case</string>
+			<string>defer</string>
+			<string>go</string>
+			<string>map</string>
+			<string>struct</string>
+			<string>chan</string>
+			<string>else</string>
+			<string>goto</string>
+			<string>package</string>
+			<string>switch</string>
+			<string>const</string>
+			<string>fallthrough</string>
+			<string>if</string>
+			<string>range</string>
+			<string>type</string>
+			<string>continue</string>
+			<string>for</string>
+			<string>import</string>
+			<string>return</string>
+			<string>var</string>
+		</array>
+		<key>Custom Identifiers</key>
+		<array>
+			<string>true</string>
+			<string>nil</string>
+			<string>false</string>
+			<string>make</string>
+			<string>new</string>
+		</array>
+	</dict>
+</dict>
+</plist>
