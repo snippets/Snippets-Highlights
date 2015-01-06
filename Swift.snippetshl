@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>Swift</string>
+	<key>Name</key>
+	<string>Swift</string>
+	<key>Extension</key>
+	<string>swift</string>
+	<key>Multiline</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>/*</string>
+				<key>End String</key>
+				<string>*/</string>
+			</dict>
+		</array>
+		<key>Strings</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>@&quot;</string>
+				<key>End String</key>
+				<string>&quot;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;</string>
+				<key>End String</key>
+				<string>&quot;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>&apos;</string>
+				<key>End String</key>
+				<string>&apos;</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Line</key>
+	<dict>
+		<key>Directives</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>#</string>
+			</dict>
+		</array>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>//</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Keywords</key>
+		<array>
+			<string>func</string>
+			<string>override</string>
+			<string>UInt16</string>
+			<string>UInt32</string>
+			<string>@property</string>
+			<string>var</string>
+			<string>let</string>
+			<string>class</string>
+			<string>return</string>
+			<string>void</string>
+			<string>self</string>
+			<string>do</string>
+			<string>if</string>
+			<string>break</string>
+			<string>while</string>
+			<string>for</string>
+			<string>until</string>
+			<string>nil</string>
+			<string>int</string>
+			<string>unsigned</string>
+			<string>break</string>
+			<string>continue</string>
+			<string>else</string>
+			<string>long</string>
+			<string>char</string>
+			<string>case</string>
+			<string>void</string>
+			<string>static</string>
+			<string>const</string>
+			<string>super</string>
+			<string>typedef</string>
+			<string>enum</string>
+			<string>init</string>
+			<string>import</string>
+		</array>
+		<key>Custom Identifiers</key>
+		<array>
+			<string>@IBOutlet</string>
+			<string>@IBAction</string>
+			<string>YES</string>
+			<string>NO</string>
+			<string>true</string>
+			<string>false</string>
+			<string>NSNotFound</string>
+			<string>BOOL</string>
+			<string>NULL</string>
+		</array>
+	</dict>
+</dict>
+</plist>
