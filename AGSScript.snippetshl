@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>agsscript</string>
+	<key>Name</key>
+	<string>AGS Script</string>
+	<key>Extension</key>
+	<string>m</string>
+	<key>Multiline</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>/*</string>
+				<key>End String</key>
+				<string>*/</string>
+			</dict>
+		</array>
+		<key>Strings</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;</string>
+				<key>End String</key>
+				<string>&quot;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;</string>
+				<key>End String</key>
+				<string>&quot;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>&apos;</string>
+				<key>End String</key>
+				<string>&apos;</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Line</key>
+	<dict>
+		<key>Directives</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>#</string>
+			</dict>
+		</array>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>//</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Keywords</key>
+		<array>
+			<string>char</string>
+			<string>short</string>
+			<string>int</string>
+			<string>String</string>
+			<string>float</string>
+			<string>do</string>
+			<string>if</string>
+			<string>else</string>
+			<string>break</string>
+			<string>while</string>
+			<string>for</string>
+			<string>until</string>
+			<string>nil</string>
+			<string>continue</string>
+			<string>case</string>
+			<string>import</string>
+			<string>export</string>
+			<string>noloopcheck</string>
+			<string>function</string>
+			<string>this</string>
+			<string>struct</string>
+			<string>enum</string>
+		</array>
+		<key>Custom Identifiers</key>
+		<array>
+			<string>DEBUG</string>
+			<string>STRICT</string>
+			<string>STRICT_STRINGS</string>
+			<string>LRPRECEDENCE</string>
+			<string>AGS_NEW_STRINGS</string>
+			<string>AGS_SUPPORTS_IFVER</string>
+			<string>AGS_MAX_CONTROLS_PER_GUI</string>
+			<string>AGS_MAX_OBJECTS</string>
+			<string>AGS_MAX_REGIONS</string>
+			<string>#ifver</string>
+			<string>#ifnver</string>
+			<string>#ifndef</string>
+			<string>#ifdef</string>
+			<string>#endif</string>
+		</array>
+	</dict>
+</dict>
+</plist>
